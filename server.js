@@ -420,10 +420,10 @@ app.use(cors());
 
 console.log(`${process.env.NODE_ENV}`);
 
-// if (process.env.NODE_ENV === 'production') {
-//   app.use(express.static(path.join(__dirname, '../client/build')));
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, '../client/build')));
 
-// }
+}
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 if (process.env.NODE_ENV === 'production') {
@@ -445,8 +445,8 @@ if (process.env.NODE_ENV === 'production') {
 //     console.log(`MONGODB connection error`, err);
 //   });
 
-// app.use(passport.initialize());
-// app.use(passport.session());
+app.use(passport.initialize());
+app.use(passport.session());
 app.use(routes);
 
 app.get('*', function (req, res) {
