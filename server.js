@@ -5,7 +5,7 @@ const fs = require('fs');
 const http = require('http');
 const https = require('https');
 const mongoose = require('mongoose');
-const routes = require('./routes');
+// const routes = require('./routes');
 const app = express();
 // const db = require('./models');
 
