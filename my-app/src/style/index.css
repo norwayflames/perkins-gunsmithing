@@ -1,3 +1,33 @@
-body {
-  background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.jumbotron {
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    border-width: 2px;
+    border-color: black;
+    border-style:solid;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-size: xx-large;
+}
+
+.navbar {
+    font-family: 'Playfair Display', serif;
+}
+
+.card,
+.form-group,
+button {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand {
+    text-align: center;
+    justify-content: center;
 }
