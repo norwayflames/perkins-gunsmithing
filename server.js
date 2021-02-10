@@ -453,6 +453,10 @@ app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, './client/build'));
 });
 
-app.listen(process.env.PORT || 3000, function () {
+const PORT = process.env.PORT || 8080;
+
+app.set("port", PORT);
+
+app.listen(PORT, function () {
   console.log(`listening to port ${PORT}`);
 });
