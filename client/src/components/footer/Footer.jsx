@@ -7,7 +7,7 @@ const Footer = () => {
       <div class="two-toned-footer-color">
         <h6 class="text-center">
           Copyright &copy;
-            <a href="https://github.com/norwayflames"> Kitty </a>
+            <a href="https://norwayflames.github.io/kileacastilloportfolio/"> Kitty Wilshire-Castillo</a>
         </h6>
       </div>
     </div>

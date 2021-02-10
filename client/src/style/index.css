@@ -7,12 +7,28 @@
     justify-content: center;
     border-width: 2px;
     border-color: black;
-    border-style:solid;
+    border-style: solid;
     font-family: 'Playfair Display', serif;
 }
 
 p {
-    font-size: xx-large;
+    font-size: x-large;
+}
+
+.card-subtitle {
+    font-size: x-large;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+a:active {
+    color: black;
 }
 
 .navbar {
