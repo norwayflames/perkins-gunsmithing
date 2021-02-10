@@ -56,9 +56,5 @@
   "devDependencies": {
     "concurrently": "^4.1.2",
     "nodemon": "^1.19.4"
-  },
-  "devServer": {
-    "compress": true,
-    "public": "store-client-nestroia1.c9users.io" 
   }
 }
