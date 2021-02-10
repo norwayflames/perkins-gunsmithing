@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Disassembled1 from '../pictures/Disassembled1';
-import Disassembled2 from '../pictures/Disassembled2';
+import Snowflake from "../pictures/SnowflakePic";
+import Smile from "../pictures/Smile";
 
 function HomeCards() {
     return (
@@ -13,7 +13,7 @@ function HomeCards() {
                             <h5 className="card-title">Special title treatment</h5>
                             <h6 className="card-subtitle text-muted">Support card subtitle</h6>
                             <div className="card-body">
-                                <Disassembled1 />
+                                <Snowflake />
                                 <p className="card-text">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores culpa architecto soluta in iusto officiis omnis quod odit ipsa dicta animi excepturi accusantium, consequuntur amet consectetur distinctio modi tenetur nisi.
                             </p>
@@ -26,7 +26,7 @@ function HomeCards() {
                             <h5 className="card-title">Special title treatment</h5>
                             <h6 className="card-subtitle text-muted">Support card subtitle</h6>
                             <div className="card-body">
-                                <Disassembled2 />
+                                <Smile />
                                 <p className="card-text">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores culpa architecto soluta in iusto officiis omnis quod odit ipsa dicta animi excepturi accusantium, consequuntur amet consectetur distinctio modi tenetur nisi.
                             </p>
