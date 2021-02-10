@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../style/index.css';
 import LoginForm from "../components/LoginForm";
 import { Button } from 'react-bootstrap';
-import history from './../history';
+import history from '../history';
 
 function signUpBtn() {
     history.push('/signup')

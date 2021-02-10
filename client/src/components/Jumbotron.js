@@ -3,7 +3,7 @@ import '../style/index.css';
 import GunLogo from "../res/GunLogo.png";
 import GunLogo2 from "../res/GunLogo2.png";
 import { Button } from 'react-bootstrap';
-import history from './../history';
+import history from '../history';
 
 function contactBtn() {
     history.push('/contact')

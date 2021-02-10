@@ -1,4 +1,3 @@
-import { Exposure } from '@material-ui/icons';
 import React, { Component } from 'react';
 import Disassembled1 from '../pictures/Disassembled1';
 import Disassembled2 from '../pictures/Disassembled2';

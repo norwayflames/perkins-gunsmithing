@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "run-p start:** server",
     "start:app": "cd client && npm run start",
@@ -30,15 +30,15 @@
     "url": "https://github.com/norwayflames/my-app/issues"
   },
   "homepage": "https://github.com/norwayflames/my-app#readme",
-  "private": true, 
+  "private": true,
   "dependencies": {
-    "axios": "^0.19.2",
-    "chalk": "^2.4.2",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "http-proxy-middleware": "^0.19.2",
-    "mongoose": "^5.9.22",
-    "nodemon": "^1.19.4",
+    "http-proxy-middleware": "^1.0.6",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.11.15",
     "npm-run-all": "^4.1.5",
     "passport": "^0.4.1",
     "passport-amazon": "^1.0.0",
@@ -47,12 +47,11 @@
     "passport-google-oauth20": "^2.0.0",
     "passport-instagram": "^1.0.0",
     "passport-instagram-basic-auth": "^1.0.0",
-    "passport-spotify": "^1.1.0",
-    "passport-twitch.js": "0.0.7",
-    "if-env": "^1.0.4"
+    "passport-spotify": "^2.0.0",
+    "passport-twitch": "^1.0.3"
   },
   "devDependencies": {
     "concurrently": "^4.1.2",
-    "nodemon": "^1.18.7"
+    "nodemon": "^1.19.4"
   }
 }
